@@ -54,8 +54,8 @@ This is a NestJS project that provides features for managing products, categorie
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/your-nestjs-project.git
-   cd your-nestjs-project
+   git clone https://github.com/Jatin-synsoft/nest_Shopping_Cart.git
+   cd nest_Shopping_Cart
    ```
 
 2. **Install Dependencies:**
