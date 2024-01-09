@@ -1,6 +1,6 @@
 # NestJS Project README
 
-## Project Overview
+## Project Overview 🚀✨
 
 This is a NestJS project that provides features for managing products, categories, and users. It includes functionality for both administrators and regular users.
 
@@ -84,4 +84,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 This project is licensed under the [ MY License](LICENSE).
 
----
+Happy coding! 🚀✨
