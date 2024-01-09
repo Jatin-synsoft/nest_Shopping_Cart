@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title Product List
+    style.
+      style.
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      h1 {
+        text-align: center;
+        color: #007bff; /* Blue color */
+      }
+      .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+        list-style-type: none;
+      }
+      .product-item {
+        width: 300px;
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #fff;
+        transition: background-color 0.3s ease; /* Smooth transition on hover */
+      }
+      .product-item:hover {
+        background-color: #f8f8f8; /* Light gray on hover */
+      }
+      .product-info {
+        margin-bottom: 10px;
+      }
+      .label {
+        font-weight: bold;
+        margin-right: 5px;
+        color: #555; /* Dark gray for labels */
+      }
+      .label-primary {
+        color: #007bff; /* Blue color for primary label */
+      }
+      .label-success {
+        color: #28a745; /* Green color for success label */
+      }
+  body
+    h1 Product List
+    ul.product-list
+      each product in products
+        li.product-item
+          span.label.label-primary  Name:
+          span.product-name= product.productId.name
+          br
+          span.label.label-success  Price:
+          span.product-price= product.productId.price
